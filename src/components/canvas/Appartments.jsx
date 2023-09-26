@@ -22,7 +22,7 @@ const Appartments = ({ isMobile }) => {
       <primitive
         object={appartment.scene}
         scale={isMobile ? 0.2 : 0.3}
-        position={isMobile ? [-1, -0.7, 2.3] : [-1, -1.45, 3]}
+        position={isMobile ? [-1, -1.7, 2.3] : [-1, -1.45, 3]}
         rotation={[0, 1.25, 0]}
       />
     </mesh>
