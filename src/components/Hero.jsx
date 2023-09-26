@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion'
 
 import { styles } from '../styles'
-import { ComputersCanvas, AppartmentsCanvas } from './canvas'
+import { AppartmentsCanvas } from './canvas'
 
 const Hero = () => {
   return (
@@ -19,7 +19,7 @@ const Hero = () => {
             Hi, I'm <span className='text-[#915EFF]'>Massimo</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I have construction experience, specifically in RC frame, structural steel & traditional construction methods.
+            I have construction experience, specifically in RC frame, structural steel<br className='sm:block hidden' /> & traditional construction methods.
           </p>
         </div>
       </div>
