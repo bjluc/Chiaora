@@ -1,18 +1,18 @@
-import React, { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+import React, { useEffect, useState } from "react"
+import { Link } from "react-router-dom"
 
-import { styles } from "../styles";
-import { navLinks } from "../constants";
-import { logo, menu, close } from "../assets";
+import { styles } from "../styles"
+import { navLinks } from "../constants"
+import { logo, menu, close } from "../assets"
 
 const Navbar = () => {
-  const [active, setActive] = useState("");
-  const [toggle, setToggle] = useState(false);
-  const [scrolled, setScrolled] = useState(false);
+  const [active, setActive] = useState("")
+  const [toggle, setToggle] = useState(false)
+  const [scrolled, setScrolled] = useState(false)
 
   useEffect(() => {
     const handleScroll = () => {
-      const scrollTop = window.scrollY;
+      const scrollTop = window.scrollY
       if (scrollTop > 100) {
         setScrolled(true);
       } else {
@@ -37,7 +37,7 @@ const Navbar = () => {
           className='flex items-center gap-2'
           onClick={() => {
             setActive("");
-            window.scrollTo(0, 0);
+            window.scrollTo(0, 0)
           }}
         >
           <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
@@ -94,4 +94,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Navbar
