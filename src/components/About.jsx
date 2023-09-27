@@ -47,11 +47,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        Having earned a BSc degree in Architectural Technology, I was fortunate to secure a position with one of Italy's foremost main contractors, The Piccini Group. This opportunity has enriched my construction experience, particularly in the realms of RC frame, structural steel, and traditional construction methodologies.
       </motion.p>
 
     <div className='mt-20 flex flex-wrap gap-10'>
