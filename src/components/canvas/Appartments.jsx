@@ -21,8 +21,8 @@ const Appartments = ({ isMobile }) => {
       <pointLight intensity={1} />
       <primitive
         object={appartment.scene}
-        scale={isMobile ? 0.12 : 0.26}
-        position={isMobile ? [-1, -1, 1.25] : [-1, -1.45, 3]}
+        scale={isMobile ? 0.11 : 0.26}
+        position={isMobile ? [-1, -1.1, 1.10] : [-1, -1.45, 3]}
         rotation={[0, 1.15, 0]}
       />
     </mesh>

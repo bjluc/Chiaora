@@ -19,12 +19,12 @@ const Hero = () => {
             Hi, I'm <span className='text-[#915EFF]'>Massimo</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I have construction experience, specifically in RC frame, structural steel<br className='sm:block hidden' /> & traditional construction methods.
+            I have construction experience, specifically in RC frame, structural steel<span className='sm:block hidden'> & traditional construction methods.</span>
           </p>
         </div>
       </div>
       <AppartmentsCanvas />
-      <div className='absolute xs:bottom-10 bottom-2 w-full flex justify-center items-center'>
+      <div className='absolute xs:bottom-10 bottom-2 w-full flex justify-center items-center z-100'>
         <a href='#about'>
           <div className='w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2'>
             <motion.div
